@@ -1,0 +1,19 @@
+public class ObfuscatedFlag {
+    public static void main(String[] args) {
+        String flag = "";
+
+        // Obfuscated parts of the flag
+        flag += (char) (70 + 4);
+        flag += (char) (76 * 2 - 9);
+        flag += (char) (65 + 10);
+        flag += (char) (71 * 2 - 15);
+        flag += (char) (123 - 89);
+        flag += (char) (43 + 13);
+        flag += (char) (50 * 3 - 25);
+        flag += (char) (45 + 7);
+        flag += (char) (49 * 2 + 3);
+        flag += (char) (125 - 24);
+
+        System.out.println(flag);
+    }
+}
