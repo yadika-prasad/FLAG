@@ -2,7 +2,7 @@ public class ObfuscatedFlag {
     public static void main(String[] args) {
         String flag = "";
 
-        // Obfuscated parts of the flag
+         
         flag += (char) (70 + 4);
         flag += (char) (76 * 2 - 9);
         flag += (char) (65 + 10);
